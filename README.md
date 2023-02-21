@@ -4,7 +4,7 @@
 
 ## Using pre-nudges to super charge a nudge
 
-By [Tabaré Capitán](http://tabarecapitan.com), Linda Thunström, Klaas van ‘t Veld, Jonas Nordström, and Jason Shogren_
+By [Tabaré Capitán](http://tabarecapitan.com), Linda Thunström, Klaas van ‘t Veld, Jonas Nordström, and Jason Shogren
 
 ### Instructions ###
 
