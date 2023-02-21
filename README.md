@@ -1,6 +1,8 @@
 # Replication instructions
 
-## Title: Using pre-nudges to super charge a nudge
+
+
+## Using pre-nudges to super charge a nudge
 
 By [Tabaré Capitán](http://tabarecapitan.com), Linda Thunström, Klaas van ‘t Veld, Jonas Nordström, and Jason Shogren_
 
@@ -13,7 +15,7 @@ By [Tabaré Capitán](http://tabarecapitan.com), Linda Thunström, Klaas van ‘
 
 ### Software requirements
 Stata version 14.2 or higher. Add-on packages are included in `code/libraries/stat`a and do not need to be installed. The names, installation sources, and installation dates of these packages are available in `code/libraries/stata/stata.trk`.
-For the results shown in the paper, we ran the master script on XXX. The analysis required minimal memory and processing resources. It was last run on a Windows 10 Desktop with 16 gigabytes of RAM and an i7-6600 CPU 2.60 GHz processor. The runtime was XXXX.
+For the results shown in the paper, we ran the master script on **XXX**. The analysis required minimal memory and processing resources. It was last run on a Windows 10 Desktop with 16 gigabytes of RAM and an i7-6600 CPU 2.60 GHz processor. The runtime was **XXXX**.
 
 ### License
 The data are licensed under a Creative Commons Attribution 4.0 International Public License. The code is licensed under a Modified BSD License. See LICENSE.txt for details.
