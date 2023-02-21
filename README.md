@@ -14,7 +14,7 @@ By [Tabaré Capitán](http://tabarecapitan.com), Linda Thunström, Klaas van ‘
 -	The raw data for the analysis is contained in the folder `rawData`, which contains one folder for the lab experiment and one folder for the online experiment. The folder from the laboratory experiment contains two .CSV files with the answers from the two Qualtrics surveys that compose the experiment and one .XLSX with data on body and leftover weights. The folder from the online experiment contains one .CSV file from the Qualtrics survey.
 
 ### Software requirements
-Stata version 14.2 or higher. Add-on packages are included in `code/libraries/stat`a and do not need to be installed. The names, installation sources, and installation dates of these packages are available in `code/libraries/stata/stata.trk`.
+Stata version 14.2 or higher. Add-on packages are included in `code/libraries/stata` and do not need to be installed. The names, installation sources, and installation dates of these packages are available in `code/libraries/stata/stata.trk`.
 For the results shown in the paper, we ran the master script on **XXX**. The analysis required minimal memory and processing resources. It was last run on a Windows 10 Desktop with 16 gigabytes of RAM and an i7-6600 CPU 2.60 GHz processor. The runtime was **XXXX**.
 
 ### License
