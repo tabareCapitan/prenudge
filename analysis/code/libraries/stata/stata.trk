@@ -1,0 +1,149 @@
+* 00000006
+*! version 1.0.0
+* Do not erase or edit this file
+* It is used by Stata to track the ado and help
+* files you have installed.
+
+S http://fmwww.bc.edu/repec/bocode/r
+N ritest.pkg
+D 16 Jul 2022
+U 1
+d 'RITEST': module to perform randomization inference and permutation tests
+d 
+d  ritest performs randomization inference and permutation tests,
+d allowing for arbitrary randomization procedures and with (almost)
+d any Stata command.
+d 
+d KW: randomization inference
+d KW: permutation tests
+d 
+d Requires: Stata version 13
+d 
+d Distribution-Date: 20200521
+d 
+d Author: Simon Hess, University of Frankfurt
+d Support: email simon.h.hess@@gmail.com
+d 
+f r\ritest.ado
+f r\ritest.sthlp
+e
+S http://fmwww.bc.edu/repec/bocode/g
+N gsreg.pkg
+D 16 Jul 2022
+U 2
+d 'GSREG': module to perform Global Search Regression
+d 
+d    gsreg is an automatic model selection command for time series,
+d cross-section and panel data regressions. By default (otherwise,
+d users have many options to modify this simplest
+d specification), gsreg performs alternative OLS regressions
+d looking for the best depvar Data    Generating Process, iterating
+d over all possible combinations among explanatory variables
+d specified in varlist_ocand. Regression results    are stored in a
+d .dta file named as gsreg.dta, and saved in the working directory. d
+d KW: global search
+d KW: specification search
+d KW: regression
+d 
+d Requires: Stata version 11
+d 
+d Distribution-Date: 20131124
+d 
+d Author: Pablo Gluzmann , Universidad Nacional de La Plata
+d Support: email gluzmann@@yahoo.com
+d 
+d Author: Demian Panigo, Paris-Jourdan Sciences Économiques (PSE)
+d Support: email dpanigo@@ceil-conicet.gov.ar
+d 
+f g\gsreg.ado
+f g\gsreg.sthlp
+e
+S https://raw.githubusercontent.com/reifjulian/texsave/master
+N texsave.pkg
+D 16 Jul 2022
+U 3
+d texsave. Save dataset in LaTeX format.
+d Julian Reif, University of Illinois (jreif@illinois.edu)
+f t\texsave.ado
+f t\texsave.sthlp
+f a\appendfile.ado
+f a\appendfile.hlp
+e
+S http://fmwww.bc.edu/repec/bocode/t
+N texdoc.pkg
+D 16 Jul 2022
+U 4
+d 'TEXDOC': module to create a LaTeX document including Stata output
+d 
+d  texdoc provides tools to create a LaTeX document  from within
+d Stata in a weaving fashion. This is especially  useful if you
+d want to produce a LaTeX document that contains  Stata output,
+d such as, e.g., a Stata Journal article or  solutions to
+d statistics homework assignments.
+d 
+d KW: LaTeX
+d KW: weaving
+d KW: Stata output
+d KW: Stata log
+d KW: reproducible research
+d 
+d Requires: Stata version 10 and sjlatex from http://www.stata-journal.com/production
+d 
+d Distribution-Date: 20180418
+d 
+d Author: Ben Jann, University of Bern
+d Support: email jann@@soz.unibe.ch
+d 
+f t\texdoc.ado
+f t\texdoc.sthlp
+f t\tex.ado
+e
+S http://www.stata-journal.com/production
+N sjlatex.pkg
+D 16 Jul 2022
+U 5
+d sjlatex:  LaTeX files for the Stata Journal
+d ^sjlatex^ contains the LaTeX document class and packages for the
+d Stata Journal.
+d 
+d The ancillary files should be installed using the ^sjlatex^ command
+d from within Stata.
+d 
+d Distribution-Date: 29aug2018
+f s\sjlatex.ado
+f s\sjlatex.hlp
+f s\sjlog_7.ado
+f s\sjlog.ado
+f s\sjlog.hlp
+e
+S http://fmwww.bc.edu/repec/bocode/g
+N gsreg.pkg
+D 18 Jul 2022
+U 6
+d 'GSREG': module to perform Global Search Regression
+d 
+d    gsreg is an automatic model selection command for time series,
+d cross-section and panel data regressions. By default (otherwise,
+d users have many options to modify this simplest
+d specification), gsreg performs alternative OLS regressions
+d looking for the best depvar Data    Generating Process, iterating
+d over all possible combinations among explanatory variables
+d specified in varlist_ocand. Regression results    are stored in a
+d .dta file named as gsreg.dta, and saved in the working directory. d
+d KW: global search
+d KW: specification search
+d KW: regression
+d 
+d Requires: Stata version 11
+d 
+d Distribution-Date: 20131124
+d 
+d Author: Pablo Gluzmann , Universidad Nacional de La Plata
+d Support: email gluzmann@@yahoo.com
+d 
+d Author: Demian Panigo, Paris-Jourdan Sciences Économiques (PSE)
+d Support: email dpanigo@@ceil-conicet.gov.ar
+d 
+f g\gsreg.ado
+f g\gsreg.sthlp
+e
