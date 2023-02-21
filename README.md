@@ -1,6 +1,6 @@
 # Replication instructions
 
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7659225.svg)](https://doi.org/10.5281/zenodo.7659225)
 
 ## Using pre-nudges to super charge a nudge
 
